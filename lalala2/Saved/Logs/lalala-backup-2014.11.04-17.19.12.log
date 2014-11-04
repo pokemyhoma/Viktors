@@ -1,0 +1,1250 @@
+﻿Log file open, 11/04/14 11:17:36
+LogInit:Display: Running engine for game: lalala
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.04-10.17.36:874][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.04-10.17.36:919][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.04-10.17.36:942][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.04-10.17.36:950][  0]LogInit: Object subsystem initialized
+[2014.11.04-10.17.36:953][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.04-10.17.36:953][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Viktors/Documents/Unreal Projects/lalala/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.04-10.17.36:953][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.04-10.17.36:953][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Viktors/Documents/Unreal Projects/lalala/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.04-10.17.36:953][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.04-10.17.36:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.04-10.17.36:960][  0]LogInit: Computer: VIKTORS-DATOR
+[2014.11.04-10.17.36:960][  0]LogInit: User: Viktors
+[2014.11.04-10.17.36:962][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.04-10.17.36:962][  0]LogInit: High frequency timer resolution =3.118818 MHz
+[2014.11.04-10.17.36:962][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.11.04-10.17.36:962][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.04-10.17.36:962][  0]LogMemory: Process Physical Memory: 62.53 MB used, 62.53 MB peak
+[2014.11.04-10.17.36:962][  0]LogMemory: Process Virtual Memory: 37.65 MB used, 37.65 MB peak
+[2014.11.04-10.17.36:962][  0]LogMemory: Physical Memory: 3789.74 MB used, 8173.21 MB total
+[2014.11.04-10.17.36:962][  0]LogMemory: Virtual Memory: 271.16 MB used, 8388608.00 MB total
+[2014.11.04-10.17.37:056][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 550 Ti (Feature Level 11_0)
+[2014.11.04-10.17.37:056][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2014.11.04-10.17.37:056][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.04-10.17.37:062][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.11.04-10.17.37:068][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.04-10.17.37:108][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2014.11.04-10.17.37:249][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.04-10.17.41:893][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.04-10.17.42:323][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.04-10.17.42:381][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.04-10.17.42:723][  0]LogDerivedDataCache: Loaded boot cache 0.34s 39MB C:/Users/Viktors/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.04-10.17.42:723][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Viktors/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.04-10.17.42:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.04-10.17.42:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.04-10.17.42:817][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.04-10.17.42:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Viktors/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.04-10.17.43:025][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.04-10.17.43:025][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.04-10.17.43:241][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.04-10.17.43:244][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.04-10.17.43:426][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.04-10.17.51:543][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.04-10.17.51:821][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Viktors/Documents/Unreal Projects/lalala/Binaries/Win64. Error: 0
+[2014.11.04-10.17.51:963][  0]SourceControl: Info Source control is disabled
+[2014.11.04-10.17.51:963][  0]SourceControl: Info Source control is disabled
+[2014.11.04-10.17.51:973][  0]SourceControl: Info Source control is disabled
+[2014.11.04-10.17.52:251][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.04-10.17.52:251][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.04-10.17.52:306][  0]LogEngine: Initializing Engine...
+[2014.11.04-10.17.52:434][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.04-10.17.52:463][  0]LogInit: FAudioDevice initialized.
+[2014.11.04-10.17.52:487][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.04-10.17.52:507][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Viktors/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.04-10.17.52:513][  0]LogInit: Texture streaming: Enabled
+[2014.11.04-10.17.52:563][  0]LogInit: Transaction tracking system initialized
+[2014.11.04-10.17.52:673][  0]BlueprintLog: New page: Editor Load
+[2014.11.04-10.17.52:723][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2014.11.04-10.17.52:723][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.04-10.17.53:261][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.04-10.17.53:557][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.04-10.17.53:779][  0]LogConsoleResponse:Display: 
+[2014.11.04-10.17.54:398][  0]SourceControl: Info Source control is disabled
+[2014.11.04-10.17.54:398][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.04-10.17.54:399][  0]LightingResults: New page: Lighting Build
+[2014.11.04-10.17.54:410][  0]MapCheck: New page: Map Check
+[2014.11.04-10.17.54:410][  0]LightingResults: New page: Lighting Build
+[2014.11.04-10.17.54:422][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000140319E0
+[2014.11.04-10.17.55:403][  0]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.11.04-10.17.55:638][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.04-10.17.55:638][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-10.17.55:639][  0]Cmd: MAP CHECKDEP
+[2014.11.04-10.17.55:639][  0]MapCheck: New page: Example_Map - Nov 4, 2014, 12:17:55 PM
+[2014.11.04-10.17.55:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.149ms to complete.
+[2014.11.04-10.17.55:760][  0]LogFileHelpers: Loading map 'Example_Map' took 1.362
+[2014.11.04-10.17.55:873][  0]LogCollectionManager: Loaded 0 collections in 0.000860 seconds
+[2014.11.04-10.17.55:891][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.04-10.17.56:009][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.04-10.17.56:063][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.11.04-10.17.56:091][  0]LogLoad: Full Startup: 21.39 seconds (BP compile: 0.18 seconds)
+[2014.11.04-10.17.56:784][  0]LogRenderer:Warning: Reallocating scene render targets to support 1264x912.
+[2014.11.04-10.17.57:234][  2]LogAssetRegistry: Asset discovery search completed in 4.5205 seconds
+[2014.11.04-10.40.55:623][155]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.04-10.41.04:432][323]LogRenderer:Warning: Reallocating scene render targets to support 1616x944.
+[2014.11.04-10.41.14:460][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.04-10.41.14:460][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.11.04-10.41.25:116][751]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-10.41.25:220][751]BlueprintEditorCompileResults: Info [1430.38] Compile of Lamppickup successful! [in 0 ms]
+[2014.11.04-10.41.25:821][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-10.41.26:195][760]LogSavePackage: Save=361.617767ms
+[2014.11.04-10.41.26:195][760]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup8220BF014319D74C308A4DB7905C38AE.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-10.41.38:139][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.11.04-10.41.38:139][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.04-10.41.38:157][997]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001672F6A0
+[2014.11.04-10.41.38:297][997]LogSavePackage: Save=99.295952ms
+[2014.11.04-10.41.38:297][997]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto1D390941F4254199731E7DFB826865728.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2014.11.04-10.41.38:307][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.168
+[2014.11.04-10.41.38:307][997]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2014.11.04-10.41.41:003][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.11.04-10.41.41:003][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.04-10.41.44:401][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-10.41.44:522][ 28]LogSavePackage: Save=88.095871ms
+[2014.11.04-10.41.44:522][ 28]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_MapCB10A1014C08E743737236A313863FCB.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-10.41.44:547][ 28]LogFileHelpers: Saving map 'Example_Map' took 0.311
+[2014.11.04-10.41.45:722][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-10.41.45:839][ 61]LogSavePackage: Save=87.642822ms
+[2014.11.04-10.41.45:839][ 61]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map35BD0180423D1E6B29F9A09D68C2FBE2.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-10.41.47:411][100]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.11.04-10.41.47:428][100]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.11.04-10.42.27:116][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:116][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:116][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:117][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:117][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:117][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:117][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:118][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:118][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:118][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:118][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:118][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.42.27:119][789]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.43.32:789][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.04-10.43.32:789][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.11.04-10.43.52:869][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-10.43.53:180][680]LogSavePackage: Save=300.164673ms
+[2014.11.04-10.43.53:180][680]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup80CA57F8406F3B185BBE44B01C488B0E.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-10.43.54:311][702]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-10.43.54:406][702]BlueprintEditorCompileResults: Info [1579.57] Compile of Lamppickup successful! [in 0 ms]
+[2014.11.04-10.44.16:608][232]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.11.04-10.44.18:230][264]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.11.04-10.44.24:995][413]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props/Materials'
+[2014.11.04-10.44.27:987][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2014.11.04-10.45.05:093][333]LogEditorViewport: Clicking on Actor (LMB): Lamppickup_C (Lamppickup)
+[2014.11.04-10.45.06:063][357]Cmd: DELETE
+[2014.11.04-10.45.06:063][357]Cmd: ACTOR DELETE
+[2014.11.04-10.45.06:080][357]LogEditorActor: Deleted Actor: Lamppickup_C
+[2014.11.04-10.45.06:080][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.11.04-10.45.06:080][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.04-10.45.06:101][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EDD0EA0
+[2014.11.04-10.45.06:106][357]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.11.04-10.45.08:061][396]LogActorFactory: Actor Factory created MaterialSphere
+[2014.11.04-10.45.08:642][410]LogActorFactory: Actor Factory created MaterialSphere
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.43:802][576]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.58:460][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.58:460][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.45.58:461][121]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.51.47:739][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.04-10.51.47:908][655]LogSavePackage: Save=105.317146ms
+[2014.11.04-10.51.47:908][655]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto2FE81820B473BFBF0C2FF8C8F352510F5.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2014.11.04-10.51.47:920][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.181
+[2014.11.04-10.51.47:920][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2014.11.04-10.57.02:280][691]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2014.11.04-10.57.09:832][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.04-10.57.11:020][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.04-10.57.34:499][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.11.04-10.57.34:499][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.04-10.58.31:122][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2014.11.04-10.58.31:122][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.04-10.59.12:038][646]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.59.12:039][646]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-10.59.12:039][646]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-11.00.31:021][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2014.11.04-11.00.31:021][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.04-11.01.49:896][870]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.050
+[2014.11.04-11.01.49:923][870]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Lamppickup] ([1] browsable assets)...
+[2014.11.04-11.01.49:966][870]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Lamppickup.Lamppickup]
+[2014.11.04-11.01.49:966][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lamppickup]
+[2014.11.04-11.01.50:458][870]LogSavePackage: Save=398.448059ms
+[2014.11.04-11.01.50:458][870]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup_Auto387518BE14C515B96537AD48DCF609A41.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Blueprints/Lamppickup_Auto3.uasset'
+[2014.11.04-11.01.50:499][870]LogFileHelpers: Auto-saving content packages took 0.602
+[2014.11.04-11.03.06:753][289]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-11.03.06:753][289]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-11.03.16:297][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.03.16:613][798]LogSavePackage: Save=299.106598ms
+[2014.11.04-11.03.16:613][798]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/LamppickupCE25E8A6460135178EE1CA8E0110F2D0.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.08.39:809][883]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.04-11.11.31:681][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.11.32:015][304]LogSavePackage: Save=315.864227ms
+[2014.11.04-11.11.32:015][304]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/LamppickupD73F26104DEDC81DB04F7DB1410B1713.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.11.37:881][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.11.38:206][475]LogSavePackage: Save=312.642487ms
+[2014.11.04-11.11.38:206][475]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup8A720D1D47C0DC78BBAAA4B3B5917974.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.11.38:636][491]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-11.11.38:701][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2014.11.04-11.11.38:701][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.04-11.11.38:738][491]BlueprintEditorCompileResults: Info [3243.86] Compile of Lamppickup successful! [in 1 ms]
+[2014.11.04-11.11.53:870][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MaterialSphere)
+[2014.11.04-11.11.54:616][652]Cmd: DELETE
+[2014.11.04-11.11.54:616][652]Cmd: ACTOR DELETE
+[2014.11.04-11.11.54:616][652]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.11.54:616][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.04-11.11.54:617][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2014.11.04-11.11.54:649][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C0ECAE0
+[2014.11.04-11.11.54:653][652]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2014.11.04-11.11.59:160][710]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.04-11.11.59:160][710]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.11.04-11.11.59:199][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2014.11.04-11.11.59:199][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.04-11.11.59:218][710]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2014.11.04-11.11.59:218][710]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:11:59 PM)
+[2014.11.04-11.11.59:335][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116181s)
+[2014.11.04-11.11.59:336][710]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2014.11.04-11.11.59:336][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.117170s)
+[2014.11.04-11.11.59:509][710]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.11.59:796][710]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.11.59:798][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.11.59
+[2014.11.04-11.11.59:963][710]LogWorld: Bringing up level for play took: 0.166100
+[2014.11.04-11.12.00:080][710]LogGameMode:Warning: Couldn't spawn Pawn of type MyCharacter_C at PlayerStartPIE_0
+[2014.11.04-11.12.00:087][710]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.936
+[2014.11.04-11.12.00:474][711]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.097273 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_2'
+[2014.11.04-11.12.08:120][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B6FB2E0
+[2014.11.04-11.12.14:439][983]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.04-11.12.14:439][983]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:12:14 PM)
+[2014.11.04-11.12.14:477][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037931s)
+[2014.11.04-11.12.14:478][983]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2014.11.04-11.12.14:478][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039009s)
+[2014.11.04-11.12.14:529][983]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.12.14:531][983]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.12.14:533][983]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.12.14
+[2014.11.04-11.12.14:533][983]LogWorld: Bringing up level for play took: 0.002064
+[2014.11.04-11.12.14:545][983]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.606
+[2014.11.04-11.12.16:260][ 10]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.12.16:284][ 11]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.12.16:362][ 12]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.12.16:462][ 13]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.12.16:518][ 14]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.12.16:568][ 15]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.12.16:682][ 16]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.12.16:771][ 17]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.12.16:783][ 18]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.12.16:860][ 19]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.12.16:896][ 20]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.12.16:976][ 21]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.12.17:010][ 22]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.12.17:082][ 23]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.12.20:666][119]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.12.20:700][120]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.12.20:764][121]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.12.20:802][122]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.12.20:840][123]LogBlueprintUserMessages: 81.0
+[2014.11.04-11.12.20:878][124]LogBlueprintUserMessages: 80.0
+[2014.11.04-11.12.20:914][125]LogBlueprintUserMessages: 79.0
+[2014.11.04-11.12.20:952][126]LogBlueprintUserMessages: 78.0
+[2014.11.04-11.12.20:989][127]LogBlueprintUserMessages: 77.0
+[2014.11.04-11.12.21:027][128]LogBlueprintUserMessages: 76.0
+[2014.11.04-11.12.21:066][129]LogBlueprintUserMessages: 75.0
+[2014.11.04-11.12.21:105][130]LogBlueprintUserMessages: 74.0
+[2014.11.04-11.12.21:143][131]LogBlueprintUserMessages: 73.0
+[2014.11.04-11.12.21:180][132]LogBlueprintUserMessages: 72.0
+[2014.11.04-11.12.21:219][133]LogBlueprintUserMessages: 71.0
+[2014.11.04-11.12.21:256][134]LogBlueprintUserMessages: 70.0
+[2014.11.04-11.12.21:293][135]LogBlueprintUserMessages: 69.0
+[2014.11.04-11.12.21:320][136]LogBlueprintUserMessages: 68.0
+[2014.11.04-11.12.21:355][137]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.12.21:393][138]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.12.21:431][139]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.12.21:499][140]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.12.21:536][141]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.12.21:574][142]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.12.21:611][143]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.12.21:636][144]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.12.21:672][145]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.12.21:709][146]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.12.21:747][147]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.12.21:813][148]LogBlueprintUserMessages: 56.0
+[2014.11.04-11.12.21:849][149]LogBlueprintUserMessages: 55.0
+[2014.11.04-11.12.21:886][150]LogBlueprintUserMessages: 54.0
+[2014.11.04-11.12.21:922][151]LogBlueprintUserMessages: 53.0
+[2014.11.04-11.12.21:945][152]LogBlueprintUserMessages: 52.0
+[2014.11.04-11.12.21:981][153]LogBlueprintUserMessages: 51.0
+[2014.11.04-11.12.22:018][154]LogBlueprintUserMessages: 50.0
+[2014.11.04-11.12.24:409][221]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.12.24:477][222]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.12.24:514][223]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.12.24:537][224]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.12.24:550][225]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.12.24:610][226]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.12.24:647][227]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.12.24:683][228]LogBlueprintUserMessages: 42.0
+[2014.11.04-11.12.24:721][229]LogBlueprintUserMessages: 41.0
+[2014.11.04-11.12.24:758][230]LogBlueprintUserMessages: 40.0
+[2014.11.04-11.12.24:785][231]LogBlueprintUserMessages: 39.0
+[2014.11.04-11.12.24:793][232]LogBlueprintUserMessages: 38.0
+[2014.11.04-11.12.24:857][233]LogBlueprintUserMessages: 37.0
+[2014.11.04-11.12.24:893][234]LogBlueprintUserMessages: 36.0
+[2014.11.04-11.12.24:918][235]LogBlueprintUserMessages: 35.0
+[2014.11.04-11.12.25:817][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005353BA0
+[2014.11.04-11.12.47:674][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2014.11.04-11.12.47:674][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.04-11.12.48:111][975]LogSavePackage: Save=109.534126ms
+[2014.11.04-11.12.48:111][975]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto4CA7ED81B4FD2E19DA53746B7486DA0BF.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2014.11.04-11.12.48:119][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.199
+[2014.11.04-11.12.48:119][975]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.199
+[2014.11.04-11.12.48:143][975]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Lamppickup] ([1] browsable assets)...
+[2014.11.04-11.12.48:160][975]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Lamppickup.Lamppickup]
+[2014.11.04-11.12.48:160][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lamppickup]
+[2014.11.04-11.12.48:512][975]LogSavePackage: Save=315.583008ms
+[2014.11.04-11.12.48:512][975]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup_Auto4F9DCFB124BFA5CEA29F1CC9AFE8C644A.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Blueprints/Lamppickup_Auto4.uasset'
+[2014.11.04-11.12.48:518][975]LogFileHelpers: Auto-saving content packages took 0.399
+[2014.11.04-11.12.50:070][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.12.50:121][999]LogSavePackage: Save=27.571663ms
+[2014.11.04-11.12.50:121][999]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/LamppickupBE7AA47B41BBC1A5513612A1835585DA.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.12.50:557][  7]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-11.12.50:656][  7]BlueprintEditorCompileResults: Info [3315.78] Compile of Lamppickup successful! [in 2 ms]
+[2014.11.04-11.12.52:837][ 37]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.04-11.12.52:837][ 37]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:12:52 PM)
+[2014.11.04-11.12.52:879][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042522s)
+[2014.11.04-11.12.52:880][ 37]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2014.11.04-11.12.52:881][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.043734s)
+[2014.11.04-11.12.52:919][ 37]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.12.52:921][ 37]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.12.52:922][ 37]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.12.52
+[2014.11.04-11.12.52:923][ 37]LogWorld: Bringing up level for play took: 0.001916
+[2014.11.04-11.12.52:924][ 37]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.228
+[2014.11.04-11.12.55:383][ 98]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.12.55:444][ 99]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.12.55:485][100]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.12.55:522][101]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.12.55:558][102]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.12.55:584][103]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.12.55:619][104]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.12.55:657][105]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.12.55:694][106]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.12.55:731][107]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.12.55:804][108]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.12.55:842][109]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.12.55:880][110]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.12.55:919][111]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.12.55:955][112]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.12.55:983][113]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.12.55:992][114]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.12.56:056][115]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.12.57:623][159]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.12.57:657][160]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.12.57:693][161]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.12.57:729][162]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.12.57:767][163]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.12.57:803][164]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.12.57:839][165]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.12.57:875][166]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.12.57:909][167]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.12.57:935][168]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.12.57:970][169]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.12.58:006][170]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.12.58:043][171]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.12.58:079][172]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.12.58:140][173]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.12.58:167][174]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.12.58:202][175]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.12.58:237][176]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.12.58:274][177]LogBlueprintUserMessages: 81.0
+[2014.11.04-11.12.58:338][178]LogBlueprintUserMessages: 80.0
+[2014.11.04-11.12.58:364][179]LogBlueprintUserMessages: 79.0
+[2014.11.04-11.12.58:403][180]LogBlueprintUserMessages: 78.0
+[2014.11.04-11.12.58:439][181]LogBlueprintUserMessages: 77.0
+[2014.11.04-11.12.58:504][182]LogBlueprintUserMessages: 76.0
+[2014.11.04-11.12.58:543][183]LogBlueprintUserMessages: 75.0
+[2014.11.04-11.12.58:579][184]LogBlueprintUserMessages: 74.0
+[2014.11.04-11.12.58:606][185]LogBlueprintUserMessages: 73.0
+[2014.11.04-11.12.58:641][186]LogBlueprintUserMessages: 72.0
+[2014.11.04-11.12.58:678][187]LogBlueprintUserMessages: 71.0
+[2014.11.04-11.12.58:743][188]LogBlueprintUserMessages: 70.0
+[2014.11.04-11.12.58:784][189]LogBlueprintUserMessages: 69.0
+[2014.11.04-11.12.58:809][190]LogBlueprintUserMessages: 68.0
+[2014.11.04-11.12.58:848][191]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.12.58:882][192]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.12.58:920][193]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.12.58:987][194]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.12.59:025][195]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.12.59:062][196]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.12.59:100][197]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.12.59:137][198]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.12.59:175][199]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.12.59:212][200]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.12.59:251][201]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.12.59:289][202]LogBlueprintUserMessages: 56.0
+[2014.11.04-11.12.59:326][203]LogBlueprintUserMessages: 55.0
+[2014.11.04-11.12.59:363][204]LogBlueprintUserMessages: 54.0
+[2014.11.04-11.12.59:400][205]LogBlueprintUserMessages: 53.0
+[2014.11.04-11.12.59:437][206]LogBlueprintUserMessages: 52.0
+[2014.11.04-11.12.59:474][207]LogBlueprintUserMessages: 51.0
+[2014.11.04-11.12.59:511][208]LogBlueprintUserMessages: 50.0
+[2014.11.04-11.12.59:548][209]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.12.59:587][210]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.12.59:623][211]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.12.59:660][212]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.12.59:696][213]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.12.59:733][214]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.12.59:772][215]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.12.59:810][216]LogBlueprintUserMessages: 42.0
+[2014.11.04-11.12.59:847][217]LogBlueprintUserMessages: 41.0
+[2014.11.04-11.12.59:885][218]LogBlueprintUserMessages: 40.0
+[2014.11.04-11.12.59:923][219]LogBlueprintUserMessages: 39.0
+[2014.11.04-11.12.59:961][220]LogBlueprintUserMessages: 38.0
+[2014.11.04-11.12.59:998][221]LogBlueprintUserMessages: 37.0
+[2014.11.04-11.13.00:035][222]LogBlueprintUserMessages: 36.0
+[2014.11.04-11.13.00:061][223]LogBlueprintUserMessages: 35.0
+[2014.11.04-11.13.00:096][224]LogBlueprintUserMessages: 34.0
+[2014.11.04-11.13.00:135][225]LogBlueprintUserMessages: 33.0
+[2014.11.04-11.13.00:171][226]LogBlueprintUserMessages: 32.0
+[2014.11.04-11.13.00:208][227]LogBlueprintUserMessages: 31.0
+[2014.11.04-11.13.00:245][228]LogBlueprintUserMessages: 30.0
+[2014.11.04-11.13.00:282][229]LogBlueprintUserMessages: 29.0
+[2014.11.04-11.13.00:319][230]LogBlueprintUserMessages: 28.0
+[2014.11.04-11.13.00:356][231]LogBlueprintUserMessages: 27.0
+[2014.11.04-11.13.00:393][232]LogBlueprintUserMessages: 26.0
+[2014.11.04-11.13.00:430][233]LogBlueprintUserMessages: 25.0
+[2014.11.04-11.13.00:467][234]LogBlueprintUserMessages: 24.0
+[2014.11.04-11.13.00:504][235]LogBlueprintUserMessages: 23.0
+[2014.11.04-11.13.00:542][236]LogBlueprintUserMessages: 22.0
+[2014.11.04-11.13.00:578][237]LogBlueprintUserMessages: 21.0
+[2014.11.04-11.13.00:616][238]LogBlueprintUserMessages: 20.0
+[2014.11.04-11.13.00:653][239]LogBlueprintUserMessages: 19.0
+[2014.11.04-11.13.00:690][240]LogBlueprintUserMessages: 18.0
+[2014.11.04-11.13.00:728][241]LogBlueprintUserMessages: 17.0
+[2014.11.04-11.13.00:764][242]LogBlueprintUserMessages: 16.0
+[2014.11.04-11.13.00:801][243]LogBlueprintUserMessages: 15.0
+[2014.11.04-11.13.00:838][244]LogBlueprintUserMessages: 14.0
+[2014.11.04-11.13.00:878][245]LogBlueprintUserMessages: 13.0
+[2014.11.04-11.13.00:914][246]LogBlueprintUserMessages: 12.0
+[2014.11.04-11.13.00:978][247]LogBlueprintUserMessages: 11.0
+[2014.11.04-11.13.01:014][248]LogBlueprintUserMessages: 10.0
+[2014.11.04-11.13.01:053][249]LogBlueprintUserMessages: 9.0
+[2014.11.04-11.13.01:089][250]LogBlueprintUserMessages: 8.0
+[2014.11.04-11.13.01:114][251]LogBlueprintUserMessages: 7.0
+[2014.11.04-11.13.01:151][252]LogBlueprintUserMessages: 6.0
+[2014.11.04-11.13.01:189][253]LogBlueprintUserMessages: 5.0
+[2014.11.04-11.13.01:226][254]LogBlueprintUserMessages: 4.0
+[2014.11.04-11.13.01:290][255]LogBlueprintUserMessages: 3.0
+[2014.11.04-11.13.01:330][256]LogBlueprintUserMessages: 2.0
+[2014.11.04-11.13.01:368][257]LogBlueprintUserMessages: 1.0
+[2014.11.04-11.13.01:405][258]LogBlueprintUserMessages: 0.0
+[2014.11.04-11.13.03:054][304]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.03:750][324]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.03:852][327]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:123][335]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:295][340]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:492][345]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:663][350]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:835][354]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.04:972][358]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.05:149][363]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.05:329][368]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.05:474][372]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.05:799][381]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.05:944][385]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.06:127][390]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.06:308][395]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.10:734][521]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.10:940][527]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.11:078][531]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.11:248][536]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.11:420][541]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.11:729][550]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.11:900][555]LogBlueprintUserMessages: Hello
+[2014.11.04-11.13.13:876][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037A51DA0
+[2014.11.04-11.13.13:916][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F56BF60
+[2014.11.04-11.23.10:198][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2014.11.04-11.23.10:198][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.04-11.23.10:354][ 93]LogSavePackage: Save=100.346992ms
+[2014.11.04-11.23.10:354][ 93]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto51A0C86D3411B827DC9570EBC0C76AEB8.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto5.umap'
+[2014.11.04-11.23.10:366][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.167
+[2014.11.04-11.23.10:366][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2014.11.04-11.24.12:198][296]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.04-11.24.12:198][296]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:24:12 PM)
+[2014.11.04-11.24.12:231][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033013s)
+[2014.11.04-11.24.12:233][296]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2014.11.04-11.24.12:233][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.034675s)
+[2014.11.04-11.24.12:261][296]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.24.12:262][296]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.24.12:264][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.24.12
+[2014.11.04-11.24.12:272][296]LogWorld: Bringing up level for play took: 0.010129
+[2014.11.04-11.24.12:274][296]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.897
+[2014.11.04-11.24.14:469][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F0C0360
+[2014.11.04-11.24.49:570][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.24.49:881][780]LogSavePackage: Save=297.168030ms
+[2014.11.04-11.24.49:881][780]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/LamppickupA89E6827463BC5BAC6ADC49D8FCA9F70.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.24.51:335][821]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-11.24.51:398][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_13) Not registered. Aborting.
+[2014.11.04-11.24.51:398][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.04-11.24.51:426][821]BlueprintEditorCompileResults: Info [4036.54] Compile of Lamppickup successful! [in 2 ms]
+[2014.11.04-11.24.54:557][913]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.04-11.24.54:557][913]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:24:54 PM)
+[2014.11.04-11.24.54:587][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029437s)
+[2014.11.04-11.24.54:588][913]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2014.11.04-11.24.54:588][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.030943s)
+[2014.11.04-11.24.54:616][913]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.24.54:618][913]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.24.54:620][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.24.54
+[2014.11.04-11.24.54:620][913]LogWorld: Bringing up level for play took: 0.001980
+[2014.11.04-11.24.54:622][913]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.551
+[2014.11.04-11.24.55:869][965]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.24.55:892][966]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.24.55:915][967]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.24.55:941][968]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.24.55:967][969]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.24.55:992][970]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.24.56:017][971]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.24.56:043][972]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.24.56:068][973]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.24.56:093][974]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.24.56:118][975]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.24.56:144][976]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.24.56:170][977]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.24.56:195][978]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.24.56:220][979]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.24.56:246][980]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.24.56:272][981]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.24.56:298][982]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.24.56:322][983]LogBlueprintUserMessages: 81.0
+[2014.11.04-11.24.56:347][984]LogBlueprintUserMessages: 80.0
+[2014.11.04-11.24.56:373][985]LogBlueprintUserMessages: 79.0
+[2014.11.04-11.24.56:398][986]LogBlueprintUserMessages: 78.0
+[2014.11.04-11.24.56:424][987]LogBlueprintUserMessages: 77.0
+[2014.11.04-11.24.56:448][988]LogBlueprintUserMessages: 76.0
+[2014.11.04-11.24.56:473][989]LogBlueprintUserMessages: 75.0
+[2014.11.04-11.24.56:498][990]LogBlueprintUserMessages: 74.0
+[2014.11.04-11.24.56:523][991]LogBlueprintUserMessages: 73.0
+[2014.11.04-11.24.56:548][992]LogBlueprintUserMessages: 72.0
+[2014.11.04-11.24.56:573][993]LogBlueprintUserMessages: 71.0
+[2014.11.04-11.24.56:598][994]LogBlueprintUserMessages: 70.0
+[2014.11.04-11.24.56:623][995]LogBlueprintUserMessages: 69.0
+[2014.11.04-11.24.56:648][996]LogBlueprintUserMessages: 68.0
+[2014.11.04-11.24.56:673][997]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.24.56:698][998]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.24.56:722][999]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.24.56:747][  0]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.24.56:773][  1]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.24.56:798][  2]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.24.56:823][  3]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.24.56:848][  4]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.24.56:873][  5]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.24.56:898][  6]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.24.56:923][  7]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.24.56:949][  8]LogBlueprintUserMessages: 56.0
+[2014.11.04-11.24.56:974][  9]LogBlueprintUserMessages: 55.0
+[2014.11.04-11.24.56:999][ 10]LogBlueprintUserMessages: 54.0
+[2014.11.04-11.24.57:024][ 11]LogBlueprintUserMessages: 53.0
+[2014.11.04-11.24.57:049][ 12]LogBlueprintUserMessages: 52.0
+[2014.11.04-11.24.57:074][ 13]LogBlueprintUserMessages: 51.0
+[2014.11.04-11.24.57:098][ 14]LogBlueprintUserMessages: 50.0
+[2014.11.04-11.24.57:122][ 15]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.24.57:147][ 16]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.24.57:171][ 17]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.24.57:195][ 18]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.24.57:220][ 19]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.24.57:244][ 20]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.24.57:268][ 21]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.24.57:292][ 22]LogBlueprintUserMessages: 42.0
+[2014.11.04-11.24.57:317][ 23]LogBlueprintUserMessages: 41.0
+[2014.11.04-11.24.57:341][ 24]LogBlueprintUserMessages: 40.0
+[2014.11.04-11.24.57:365][ 25]LogBlueprintUserMessages: 39.0
+[2014.11.04-11.24.57:390][ 26]LogBlueprintUserMessages: 38.0
+[2014.11.04-11.24.57:414][ 27]LogBlueprintUserMessages: 37.0
+[2014.11.04-11.24.57:439][ 28]LogBlueprintUserMessages: 36.0
+[2014.11.04-11.24.57:464][ 29]LogBlueprintUserMessages: 35.0
+[2014.11.04-11.24.57:488][ 30]LogBlueprintUserMessages: 34.0
+[2014.11.04-11.24.57:513][ 31]LogBlueprintUserMessages: 33.0
+[2014.11.04-11.24.57:539][ 32]LogBlueprintUserMessages: 32.0
+[2014.11.04-11.24.57:563][ 33]LogBlueprintUserMessages: 31.0
+[2014.11.04-11.24.57:589][ 34]LogBlueprintUserMessages: 30.0
+[2014.11.04-11.24.57:613][ 35]LogBlueprintUserMessages: 29.0
+[2014.11.04-11.24.57:638][ 36]LogBlueprintUserMessages: 28.0
+[2014.11.04-11.24.57:662][ 37]LogBlueprintUserMessages: 27.0
+[2014.11.04-11.24.57:686][ 38]LogBlueprintUserMessages: 26.0
+[2014.11.04-11.24.57:711][ 39]LogBlueprintUserMessages: 25.0
+[2014.11.04-11.24.57:735][ 40]LogBlueprintUserMessages: 24.0
+[2014.11.04-11.24.57:760][ 41]LogBlueprintUserMessages: 23.0
+[2014.11.04-11.24.57:784][ 42]LogBlueprintUserMessages: 22.0
+[2014.11.04-11.24.57:808][ 43]LogBlueprintUserMessages: 21.0
+[2014.11.04-11.24.57:833][ 44]LogBlueprintUserMessages: 20.0
+[2014.11.04-11.24.57:857][ 45]LogBlueprintUserMessages: 19.0
+[2014.11.04-11.24.57:882][ 46]LogBlueprintUserMessages: 18.0
+[2014.11.04-11.24.59:538][119]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.24.59:560][120]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.24.59:581][121]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.24.59:605][122]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.24.59:630][123]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.24.59:654][124]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.24.59:678][125]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.24.59:702][126]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.24.59:726][127]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.24.59:750][128]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.24.59:774][129]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.24.59:798][130]LogBlueprintUserMessages: 56.0
+[2014.11.04-11.24.59:822][131]LogBlueprintUserMessages: 55.0
+[2014.11.04-11.24.59:846][132]LogBlueprintUserMessages: 54.0
+[2014.11.04-11.24.59:871][133]LogBlueprintUserMessages: 53.0
+[2014.11.04-11.24.59:895][134]LogBlueprintUserMessages: 52.0
+[2014.11.04-11.24.59:919][135]LogBlueprintUserMessages: 51.0
+[2014.11.04-11.24.59:943][136]LogBlueprintUserMessages: 50.0
+[2014.11.04-11.24.59:967][137]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.24.59:992][138]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.25.00:016][139]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.25.00:040][140]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.25.01:326][196]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.25.01:348][197]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.25.01:370][198]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.25.01:393][199]LogBlueprintUserMessages: 42.0
+[2014.11.04-11.25.01:416][200]LogBlueprintUserMessages: 41.0
+[2014.11.04-11.25.01:439][201]LogBlueprintUserMessages: 40.0
+[2014.11.04-11.25.01:462][202]LogBlueprintUserMessages: 39.0
+[2014.11.04-11.25.01:485][203]LogBlueprintUserMessages: 38.0
+[2014.11.04-11.25.01:509][204]LogBlueprintUserMessages: 37.0
+[2014.11.04-11.25.01:532][205]LogBlueprintUserMessages: 36.0
+[2014.11.04-11.25.01:555][206]LogBlueprintUserMessages: 35.0
+[2014.11.04-11.25.01:578][207]LogBlueprintUserMessages: 34.0
+[2014.11.04-11.25.01:601][208]LogBlueprintUserMessages: 33.0
+[2014.11.04-11.25.01:625][209]LogBlueprintUserMessages: 32.0
+[2014.11.04-11.25.01:649][210]LogBlueprintUserMessages: 31.0
+[2014.11.04-11.25.01:673][211]LogBlueprintUserMessages: 30.0
+[2014.11.04-11.25.01:698][212]LogBlueprintUserMessages: 29.0
+[2014.11.04-11.25.01:722][213]LogBlueprintUserMessages: 28.0
+[2014.11.04-11.25.01:747][214]LogBlueprintUserMessages: 27.0
+[2014.11.04-11.25.01:770][215]LogBlueprintUserMessages: 26.0
+[2014.11.04-11.25.01:795][216]LogBlueprintUserMessages: 25.0
+[2014.11.04-11.25.01:820][217]LogBlueprintUserMessages: 24.0
+[2014.11.04-11.25.01:844][218]LogBlueprintUserMessages: 23.0
+[2014.11.04-11.25.01:868][219]LogBlueprintUserMessages: 22.0
+[2014.11.04-11.25.01:892][220]LogBlueprintUserMessages: 21.0
+[2014.11.04-11.25.01:916][221]LogBlueprintUserMessages: 20.0
+[2014.11.04-11.25.01:941][222]LogBlueprintUserMessages: 19.0
+[2014.11.04-11.25.01:966][223]LogBlueprintUserMessages: 18.0
+[2014.11.04-11.25.01:990][224]LogBlueprintUserMessages: 17.0
+[2014.11.04-11.25.02:015][225]LogBlueprintUserMessages: 16.0
+[2014.11.04-11.25.02:039][226]LogBlueprintUserMessages: 15.0
+[2014.11.04-11.25.02:064][227]LogBlueprintUserMessages: 14.0
+[2014.11.04-11.25.02:088][228]LogBlueprintUserMessages: 13.0
+[2014.11.04-11.25.02:112][229]LogBlueprintUserMessages: 12.0
+[2014.11.04-11.25.02:136][230]LogBlueprintUserMessages: 11.0
+[2014.11.04-11.25.02:161][231]LogBlueprintUserMessages: 10.0
+[2014.11.04-11.25.02:185][232]LogBlueprintUserMessages: 9.0
+[2014.11.04-11.25.02:210][233]LogBlueprintUserMessages: 8.0
+[2014.11.04-11.25.02:235][234]LogBlueprintUserMessages: 7.0
+[2014.11.04-11.25.02:260][235]LogBlueprintUserMessages: 6.0
+[2014.11.04-11.25.02:285][236]LogBlueprintUserMessages: 5.0
+[2014.11.04-11.25.02:310][237]LogBlueprintUserMessages: 4.0
+[2014.11.04-11.25.02:335][238]LogBlueprintUserMessages: 3.0
+[2014.11.04-11.25.02:360][239]LogBlueprintUserMessages: 2.0
+[2014.11.04-11.25.02:384][240]LogBlueprintUserMessages: 1.0
+[2014.11.04-11.25.02:408][241]LogBlueprintUserMessages: 0.0
+[2014.11.04-11.25.02:829][260]LogBlueprintUserMessages: Hello
+[2014.11.04-11.25.05:972][393]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.25.05:994][394]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.25.06:017][395]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.25.06:042][396]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.25.06:067][397]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.25.06:092][398]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.25.06:117][399]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.25.06:143][400]LogBlueprintUserMessages: 42.0
+[2014.11.04-11.25.06:168][401]LogBlueprintUserMessages: 41.0
+[2014.11.04-11.25.06:193][402]LogBlueprintUserMessages: 40.0
+[2014.11.04-11.25.06:218][403]LogBlueprintUserMessages: 39.0
+[2014.11.04-11.25.06:243][404]LogBlueprintUserMessages: 38.0
+[2014.11.04-11.25.06:268][405]LogBlueprintUserMessages: 37.0
+[2014.11.04-11.25.06:293][406]LogBlueprintUserMessages: 36.0
+[2014.11.04-11.25.06:318][407]LogBlueprintUserMessages: 35.0
+[2014.11.04-11.25.06:343][408]LogBlueprintUserMessages: 34.0
+[2014.11.04-11.25.06:369][409]LogBlueprintUserMessages: 33.0
+[2014.11.04-11.25.06:394][410]LogBlueprintUserMessages: 32.0
+[2014.11.04-11.25.06:419][411]LogBlueprintUserMessages: 31.0
+[2014.11.04-11.25.06:444][412]LogBlueprintUserMessages: 30.0
+[2014.11.04-11.25.06:469][413]LogBlueprintUserMessages: 29.0
+[2014.11.04-11.25.06:494][414]LogBlueprintUserMessages: 28.0
+[2014.11.04-11.25.06:520][415]LogBlueprintUserMessages: 27.0
+[2014.11.04-11.25.06:545][416]LogBlueprintUserMessages: 26.0
+[2014.11.04-11.25.06:569][417]LogBlueprintUserMessages: 25.0
+[2014.11.04-11.25.06:594][418]LogBlueprintUserMessages: 24.0
+[2014.11.04-11.25.06:618][419]LogBlueprintUserMessages: 23.0
+[2014.11.04-11.25.06:643][420]LogBlueprintUserMessages: 22.0
+[2014.11.04-11.25.06:668][421]LogBlueprintUserMessages: 21.0
+[2014.11.04-11.25.06:693][422]LogBlueprintUserMessages: 20.0
+[2014.11.04-11.25.06:718][423]LogBlueprintUserMessages: 19.0
+[2014.11.04-11.25.06:743][424]LogBlueprintUserMessages: 18.0
+[2014.11.04-11.25.06:768][425]LogBlueprintUserMessages: 17.0
+[2014.11.04-11.25.06:793][426]LogBlueprintUserMessages: 16.0
+[2014.11.04-11.25.06:818][427]LogBlueprintUserMessages: 15.0
+[2014.11.04-11.25.06:843][428]LogBlueprintUserMessages: 14.0
+[2014.11.04-11.25.06:867][429]LogBlueprintUserMessages: 13.0
+[2014.11.04-11.25.06:892][430]LogBlueprintUserMessages: 12.0
+[2014.11.04-11.25.06:917][431]LogBlueprintUserMessages: 11.0
+[2014.11.04-11.25.06:942][432]LogBlueprintUserMessages: 10.0
+[2014.11.04-11.25.06:967][433]LogBlueprintUserMessages: 9.0
+[2014.11.04-11.25.06:992][434]LogBlueprintUserMessages: 8.0
+[2014.11.04-11.25.07:017][435]LogBlueprintUserMessages: 7.0
+[2014.11.04-11.25.07:041][436]LogBlueprintUserMessages: 6.0
+[2014.11.04-11.25.07:066][437]LogBlueprintUserMessages: 5.0
+[2014.11.04-11.25.07:091][438]LogBlueprintUserMessages: 4.0
+[2014.11.04-11.25.07:115][439]LogBlueprintUserMessages: 3.0
+[2014.11.04-11.25.07:140][440]LogBlueprintUserMessages: 2.0
+[2014.11.04-11.25.07:165][441]LogBlueprintUserMessages: 1.0
+[2014.11.04-11.25.07:189][442]LogBlueprintUserMessages: 0.0
+[2014.11.04-11.25.07:376][450]LogBlueprintUserMessages: Hello
+[2014.11.04-11.25.08:281][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037A42CA0
+[2014.11.04-11.25.08:312][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037A500E0
+[2014.11.04-11.25.12:459][665]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.04-11.25.29:597][260]BlueprintLog: New page: Compile MyCharacter
+[2014.11.04-11.25.29:772][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.04-11.25.29:772][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_14) Not registered. Aborting.
+[2014.11.04-11.25.29:844][260]BlueprintEditorCompileResults: Info [4074.92] Compile of MyCharacter successful! [in 50 ms]
+[2014.11.04-11.25.30:815][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.04-11.25.31:196][281]LogSavePackage: Save=367.651459ms
+[2014.11.04-11.25.31:196][281]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/MyCharacter1141192142200AA5D105D99A184A2787.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/MyCharacter.uasset'
+[2014.11.04-11.25.44:935][761]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.04-11.25.44:935][761]LogPlayLevel: [PIE] Compiling Lamppickup before PIE...
+[2014.11.04-11.25.44:999][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.04-11.25.45:016][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FD7C5E0
+[2014.11.04-11.25.45:019][761]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2014.11.04-11.25.45:019][761]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:25:45 PM)
+[2014.11.04-11.25.45:049][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029852s)
+[2014.11.04-11.25.45:050][761]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2014.11.04-11.25.45:051][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.031423s)
+[2014.11.04-11.25.45:077][761]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.25.45:079][761]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.25.45:080][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.25.45
+[2014.11.04-11.25.45:081][761]LogWorld: Bringing up level for play took: 0.001780
+[2014.11.04-11.25.45:082][761]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.092
+[2014.11.04-11.25.46:887][836]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.25.48:892][918]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.25.50:910][  0]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.25.52:917][ 82]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.26.16:805][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030D749A0
+[2014.11.04-11.26.22:386][448]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.04-11.26.26:653][550]BlueprintLog: New page: Compile MyCharacter
+[2014.11.04-11.26.26:779][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.04-11.26.26:779][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_15) Not registered. Aborting.
+[2014.11.04-11.26.26:851][550]BlueprintEditorCompileResults: Info [4131.92] Compile of MyCharacter successful! [in 50 ms]
+[2014.11.04-11.26.27:508][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.11.04-11.26.27:887][562]LogSavePackage: Save=367.309998ms
+[2014.11.04-11.26.27:887][562]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/MyCharacterA33074B449CBDBED2C85729C320FA685.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/MyCharacter.uasset'
+[2014.11.04-11.30.16:558][650]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.04-11.30.16:576][650]Aligned camera to fit all selected actors.
+[2014.11.04-11.30.18:006][699]Cmd: SELECT NONE
+[2014.11.04-11.30.19:656][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.04-11.30.19:657][743]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_16) Not registered. Aborting.
+[2014.11.04-11.30.19:711][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034C3E3E0
+[2014.11.04-11.30.22:151][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-11.30.22:288][743]LogSavePackage: Save=90.722511ms
+[2014.11.04-11.30.22:288][743]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map915E8C0C44A9DBC1DE20A186F97B57FF.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-11.30.22:316][743]LogFileHelpers: Saving map 'Example_Map' took 0.343
+[2014.11.04-11.30.24:252][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-11.30.24:378][797]LogSavePackage: Save=93.621689ms
+[2014.11.04-11.30.24:378][797]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_MapB8C1946C4C369D52392CF2A8DF0B786C.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-11.31.01:557][664]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.04-11.31.06:157][839]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.04-11.31.06:157][839]LogPlayLevel: [PIE] Compiling Lamppickup before PIE...
+[2014.11.04-11.31.06:210][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.04-11.31.06:226][839]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.11.04-11.31.06:226][839]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:31:06 PM)
+[2014.11.04-11.31.06:259][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033003s)
+[2014.11.04-11.31.06:260][839]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2014.11.04-11.31.06:260][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.034322s)
+[2014.11.04-11.31.06:287][839]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.31.06:288][839]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.31.06:290][839]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.31.06
+[2014.11.04-11.31.06:290][839]LogWorld: Bringing up level for play took: 0.001793
+[2014.11.04-11.31.06:291][839]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.109
+[2014.11.04-11.31.09:113][967]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.31.10:132][ 10]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.31.11:139][ 52]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.31.15:179][226]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.31.16:201][265]LogBlueprintUserMessages: 145.0
+[2014.11.04-11.31.17:205][305]LogBlueprintUserMessages: 144.0
+[2014.11.04-11.31.18:207][346]LogBlueprintUserMessages: 143.0
+[2014.11.04-11.31.19:219][386]LogBlueprintUserMessages: 142.0
+[2014.11.04-11.31.20:224][426]LogBlueprintUserMessages: 141.0
+[2014.11.04-11.31.21:293][467]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037A52840
+[2014.11.04-11.34.30:848][550]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.04-11.34.56:560][466]BlueprintLog: New page: Compile Lamppickup
+[2014.11.04-11.34.56:616][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_17) Not registered. Aborting.
+[2014.11.04-11.34.56:616][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.04-11.34.56:643][466]BlueprintEditorCompileResults: Info [4641.75] Compile of Lamppickup successful! [in 2 ms]
+[2014.11.04-11.34.59:546][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lamppickup" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset" SILENT=true
+[2014.11.04-11.34.59:882][537]LogSavePackage: Save=317.303528ms
+[2014.11.04-11.34.59:882][537]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Lamppickup163EFBDA49178C38D53C20BEFC0B99EC.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Blueprints/Lamppickup.uasset'
+[2014.11.04-11.35.15:439][ 19]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.04-11.35.15:440][ 19]PIE: New page: PIE session: Example_Map (Nov 4, 2014, 1:35:15 PM)
+[2014.11.04-11.35.15:472][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032763s)
+[2014.11.04-11.35.15:474][ 19]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2014.11.04-11.35.15:474][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.034407s)
+[2014.11.04-11.35.15:509][ 19]LogWorld: Game class is 'MyGame_C'
+[2014.11.04-11.35.15:511][ 19]LogAIModule: Creating AISystem for world Example_Map
+[2014.11.04-11.35.15:513][ 19]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2014.11.04-12.35.15
+[2014.11.04-11.35.15:513][ 19]LogWorld: Bringing up level for play took: 0.002274
+[2014.11.04-11.35.15:515][ 19]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.326
+[2014.11.04-11.35.18:418][130]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.35.19:444][167]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.35.20:451][204]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.35.21:462][239]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.35.22:481][276]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.35.23:496][313]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.35.24:500][348]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.35.25:524][382]LogBlueprintUserMessages: 99.0
+[2014.11.04-11.35.26:529][415]LogBlueprintUserMessages: 98.0
+[2014.11.04-11.35.27:547][449]LogBlueprintUserMessages: 97.0
+[2014.11.04-11.35.28:571][485]LogBlueprintUserMessages: 96.0
+[2014.11.04-11.35.29:591][521]LogBlueprintUserMessages: 95.0
+[2014.11.04-11.35.30:598][557]LogBlueprintUserMessages: 94.0
+[2014.11.04-11.35.31:602][593]LogBlueprintUserMessages: 93.0
+[2014.11.04-11.35.32:625][630]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.35.33:647][668]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.35.34:655][705]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.35.35:662][742]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.35.36:686][779]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.35.37:692][816]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.35.38:699][853]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.35.39:707][890]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.35.40:713][927]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.35.41:724][964]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.35.42:729][  1]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.35.43:739][ 38]LogBlueprintUserMessages: 81.0
+[2014.11.04-11.35.44:757][ 75]LogBlueprintUserMessages: 80.0
+[2014.11.04-11.35.45:764][112]LogBlueprintUserMessages: 79.0
+[2014.11.04-11.35.46:776][149]LogBlueprintUserMessages: 78.0
+[2014.11.04-11.35.47:784][186]LogBlueprintUserMessages: 77.0
+[2014.11.04-11.35.48:791][223]LogBlueprintUserMessages: 76.0
+[2014.11.04-11.35.49:798][260]LogBlueprintUserMessages: 75.0
+[2014.11.04-11.35.50:811][297]LogBlueprintUserMessages: 74.0
+[2014.11.04-11.35.51:830][334]LogBlueprintUserMessages: 73.0
+[2014.11.04-11.35.52:838][371]LogBlueprintUserMessages: 72.0
+[2014.11.04-11.35.53:851][408]LogBlueprintUserMessages: 71.0
+[2014.11.04-11.35.54:854][445]LogBlueprintUserMessages: 70.0
+[2014.11.04-11.35.55:863][482]LogBlueprintUserMessages: 69.0
+[2014.11.04-11.35.56:871][519]LogBlueprintUserMessages: 68.0
+[2014.11.04-11.35.57:878][556]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.35.58:901][593]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.35.59:909][630]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.36.00:918][667]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.36.01:939][704]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.36.02:963][741]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.36.03:981][778]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.36.04:994][815]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.36.06:014][852]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.36.07:023][889]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.36.08:029][924]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.36.09:032][960]LogBlueprintUserMessages: 56.0
+[2014.11.04-11.36.10:038][997]LogBlueprintUserMessages: 55.0
+[2014.11.04-11.36.11:056][ 35]LogBlueprintUserMessages: 54.0
+[2014.11.04-11.36.12:086][ 73]LogBlueprintUserMessages: 53.0
+[2014.11.04-11.36.13:092][109]LogBlueprintUserMessages: 52.0
+[2014.11.04-11.36.14:107][146]LogBlueprintUserMessages: 51.0
+[2014.11.04-11.36.15:110][183]LogBlueprintUserMessages: 50.0
+[2014.11.04-11.36.15:435][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B6BE160
+[2014.11.04-11.36.16:114][220]LogBlueprintUserMessages: 49.0
+[2014.11.04-11.36.17:116][257]LogBlueprintUserMessages: 48.0
+[2014.11.04-11.36.18:118][294]LogBlueprintUserMessages: 47.0
+[2014.11.04-11.36.19:120][331]LogBlueprintUserMessages: 46.0
+[2014.11.04-11.36.20:144][369]LogBlueprintUserMessages: 45.0
+[2014.11.04-11.36.21:162][406]LogBlueprintUserMessages: 44.0
+[2014.11.04-11.36.22:163][442]LogBlueprintUserMessages: 43.0
+[2014.11.04-11.36.31:311][785]LogBlueprintUserMessages: 92.0
+[2014.11.04-11.36.32:328][822]LogBlueprintUserMessages: 91.0
+[2014.11.04-11.36.33:346][858]LogBlueprintUserMessages: 90.0
+[2014.11.04-11.36.34:359][894]LogBlueprintUserMessages: 89.0
+[2014.11.04-11.36.35:373][930]LogBlueprintUserMessages: 88.0
+[2014.11.04-11.36.36:394][967]LogBlueprintUserMessages: 87.0
+[2014.11.04-11.36.37:402][  3]LogBlueprintUserMessages: 86.0
+[2014.11.04-11.36.38:404][ 38]LogBlueprintUserMessages: 85.0
+[2014.11.04-11.36.39:419][ 73]LogBlueprintUserMessages: 84.0
+[2014.11.04-11.36.40:423][109]LogBlueprintUserMessages: 83.0
+[2014.11.04-11.36.41:432][145]LogBlueprintUserMessages: 82.0
+[2014.11.04-11.36.42:446][182]LogBlueprintUserMessages: 81.0
+[2014.11.04-11.36.43:456][219]LogBlueprintUserMessages: 80.0
+[2014.11.04-11.36.44:478][256]LogBlueprintUserMessages: 79.0
+[2014.11.04-11.36.45:482][291]LogBlueprintUserMessages: 78.0
+[2014.11.04-11.36.46:506][329]LogBlueprintUserMessages: 77.0
+[2014.11.04-11.36.47:517][366]LogBlueprintUserMessages: 76.0
+[2014.11.04-11.36.48:531][403]LogBlueprintUserMessages: 75.0
+[2014.11.04-11.36.49:550][441]LogBlueprintUserMessages: 74.0
+[2014.11.04-11.36.50:578][479]LogBlueprintUserMessages: 73.0
+[2014.11.04-11.36.51:590][515]LogBlueprintUserMessages: 72.0
+[2014.11.04-11.36.52:601][552]LogBlueprintUserMessages: 71.0
+[2014.11.04-11.36.53:622][590]LogBlueprintUserMessages: 70.0
+[2014.11.04-11.36.54:633][628]LogBlueprintUserMessages: 69.0
+[2014.11.04-11.36.55:642][666]LogBlueprintUserMessages: 68.0
+[2014.11.04-11.36.56:652][704]LogBlueprintUserMessages: 67.0
+[2014.11.04-11.36.57:675][742]LogBlueprintUserMessages: 66.0
+[2014.11.04-11.36.58:685][780]LogBlueprintUserMessages: 65.0
+[2014.11.04-11.36.59:697][818]LogBlueprintUserMessages: 64.0
+[2014.11.04-11.37.00:707][856]LogBlueprintUserMessages: 63.0
+[2014.11.04-11.37.01:719][894]LogBlueprintUserMessages: 62.0
+[2014.11.04-11.37.02:728][932]LogBlueprintUserMessages: 61.0
+[2014.11.04-11.37.03:739][970]LogBlueprintUserMessages: 60.0
+[2014.11.04-11.37.04:751][  8]LogBlueprintUserMessages: 59.0
+[2014.11.04-11.37.05:777][ 46]LogBlueprintUserMessages: 58.0
+[2014.11.04-11.37.06:806][ 84]LogBlueprintUserMessages: 57.0
+[2014.11.04-11.37.07:746][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000268FB240
+[2014.11.04-11.37.19:050][489]Cmd: SELECT NONE
+[2014.11.04-11.42.32:022][649]LogSavePackage: Save=102.672234ms
+[2014.11.04-11.42.32:022][649]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto6182FD2004BD69B9B57E97297C5FDBBAB.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto6.umap'
+[2014.11.04-11.42.32:043][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.197
+[2014.11.04-11.42.32:043][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.197
+[2014.11.04-11.52.11:464][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube)
+[2014.11.04-11.52.12:255][588]Cmd: DELETE
+[2014.11.04-11.52.12:255][588]Cmd: ACTOR DELETE
+[2014.11.04-11.52.12:255][588]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.12:283][588]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2014.11.04-11.52.13:415][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2014.11.04-11.52.14:510][647]Cmd: DELETE
+[2014.11.04-11.52.14:510][647]Cmd: ACTOR DELETE
+[2014.11.04-11.52.14:510][647]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.14:527][647]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.11.04-11.52.15:106][662]Cmd: DELETE
+[2014.11.04-11.52.15:106][662]Cmd: ACTOR DELETE
+[2014.11.04-11.52.15:107][662]LogEditorActor: Deleted Actor: Brush
+[2014.11.04-11.52.15:237][662]LogEditorActor: Deleted 1 Actors (0.130 secs)
+[2014.11.04-11.52.16:516][681]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2014.11.04-11.52.17:338][692]Cmd: DELETE
+[2014.11.04-11.52.17:338][692]Cmd: ACTOR DELETE
+[2014.11.04-11.52.17:338][692]LogEditorActor: Deleted Actor: MyCharacter_C
+[2014.11.04-11.52.17:424][692]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2014.11.04-11.52.18:408][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube02)
+[2014.11.04-11.52.18:580][720]Cmd: DELETE
+[2014.11.04-11.52.18:580][720]Cmd: ACTOR DELETE
+[2014.11.04-11.52.18:581][720]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.18:597][720]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.11.04-11.52.18:998][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2014.11.04-11.52.19:195][734]Cmd: DELETE
+[2014.11.04-11.52.19:195][734]Cmd: ACTOR DELETE
+[2014.11.04-11.52.19:196][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.19:225][734]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2014.11.04-11.52.19:506][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2014.11.04-11.52.19:590][743]Cmd: DELETE
+[2014.11.04-11.52.19:590][743]Cmd: ACTOR DELETE
+[2014.11.04-11.52.19:591][743]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.19:608][743]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2014.11.04-11.52.19:978][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2014.11.04-11.52.20:198][758]Cmd: DELETE
+[2014.11.04-11.52.20:198][758]Cmd: ACTOR DELETE
+[2014.11.04-11.52.20:198][758]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.20:215][758]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.11.04-11.52.20:656][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube2)
+[2014.11.04-11.52.20:751][771]Cmd: DELETE
+[2014.11.04-11.52.20:751][771]Cmd: ACTOR DELETE
+[2014.11.04-11.52.20:751][771]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.20:770][771]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2014.11.04-11.52.21:450][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube04)
+[2014.11.04-11.52.21:775][797]Cmd: DELETE
+[2014.11.04-11.52.21:775][797]Cmd: ACTOR DELETE
+[2014.11.04-11.52.21:776][797]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.21:792][797]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2014.11.04-11.52.22:764][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube05)
+[2014.11.04-11.52.23:143][832]Cmd: DELETE
+[2014.11.04-11.52.23:143][832]Cmd: ACTOR DELETE
+[2014.11.04-11.52.23:143][832]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.23:162][832]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2014.11.04-11.52.24:432][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube08)
+[2014.11.04-11.52.24:585][864]Cmd: DELETE
+[2014.11.04-11.52.24:585][864]Cmd: ACTOR DELETE
+[2014.11.04-11.52.24:586][864]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.24:605][864]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2014.11.04-11.52.25:109][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2014.11.04-11.52.25:205][880]Cmd: DELETE
+[2014.11.04-11.52.25:205][880]Cmd: ACTOR DELETE
+[2014.11.04-11.52.25:206][880]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.25:222][880]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.11.04-11.52.25:820][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2014.11.04-11.52.25:853][896]Cmd: DELETE
+[2014.11.04-11.52.25:853][896]Cmd: ACTOR DELETE
+[2014.11.04-11.52.25:853][896]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.25:870][896]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2014.11.04-11.52.26:221][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2014.11.04-11.52.26:253][906]Cmd: DELETE
+[2014.11.04-11.52.26:253][906]Cmd: ACTOR DELETE
+[2014.11.04-11.52.26:253][906]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.26:271][906]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2014.11.04-11.52.27:642][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube09)
+[2014.11.04-11.52.27:812][946]Cmd: DELETE
+[2014.11.04-11.52.27:812][946]Cmd: ACTOR DELETE
+[2014.11.04-11.52.27:813][946]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.04-11.52.27:829][946]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.11.04-11.52.32:255][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_18) Not registered. Aborting.
+[2014.11.04-11.52.32:255][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.04-11.52.32:357][ 58]LogSavePackage: Save=39.236019ms
+[2014.11.04-11.52.32:357][ 58]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto7A4840B7C4C6559CC4613A99DB61518BD.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto7.umap'
+[2014.11.04-11.52.32:367][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.112
+[2014.11.04-11.52.32:367][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.112
+[2014.11.04-11.52.33:582][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-11.52.33:657][ 89]LogSavePackage: Save=40.963596ms
+[2014.11.04-11.52.33:658][ 89]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map459BBBBA4846DEEA540147A442A08DBC.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-11.52.34:903][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_19) Not registered. Aborting.
+[2014.11.04-11.52.34:903][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.04-12.00.49:683][ 61]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2014.11.04-12.00.49:683][ 61]LogSynthBenchmark:Display: ===============
+[2014.11.04-12.00.49:683][ 61]LogSynthBenchmark:Display: Main Processor:
+[2014.11.04-12.00.49:722][ 61]LogSynthBenchmark:Display:          ... 0.018858 s/Run 'RayIntersect'
+[2014.11.04-12.00.49:722][ 61]LogSynthBenchmark:Display:          ... 0.020281 s/Run 'Fractal'
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display: 
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   CPU Perf Index 0: 135.8
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   CPU Perf Index 1: 141.0
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:  
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display: Graphics:
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 550 Ti'
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2014.11.04-12.00.49:723][ 61]LogSynthBenchmark:Display:   GPU Memory: 978/0/3072 MB
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:          ... 1.019 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:          ... 1.111 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:          ... 0.782 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:          ... 2.373 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2014.11.04-12.00.49:760][ 61]LogSynthBenchmark:Display:          ... 0.178 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:   GPU second test: 0.06s
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:          ... 1.454 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:          ... 1.677 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:          ... 1.079 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:          ... 5.853 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2014.11.04-12.00.49:823][ 61]LogSynthBenchmark:Display:          ... 0.180 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU third test: 0.57s
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:          ... 1.521 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:          ... 1.772 GigaPix/s, Confidence=100% 'TexHeavy'
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:          ... 1.087 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:          ... 7.002 GigaPix/s, Confidence=100% 'FillOnly'
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:          ... 0.182 GigaPix/s, Confidence=100% 'Bandwidth'
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display: 
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU Perf Index 0: 33.1
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU Perf Index 1: 23.8
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU Perf Index 2: 28.3
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU Perf Index 3: 27.5
+[2014.11.04-12.00.50:407][ 61]LogSynthBenchmark:Display:   GPU Perf Index 4: 17.0
+[2014.11.04-12.00.50:408][ 61]LogSynthBenchmark:Display:   CPUIndex: 135.8
+[2014.11.04-12.00.50:408][ 61]LogSynthBenchmark:Display:   GPUIndex: 33.1
+[2014.11.04-12.00.50:408][ 61]LogSynthBenchmark:Display: 
+[2014.11.04-12.00.50:408][ 61]LogSynthBenchmark:Display:          ... Total Time: 0.724256 sec
+[2014.11.04-12.00.50:456][ 62]LogRenderer:Warning: Reallocating scene render targets to support 1616x944.
+[2014.11.04-12.00.50:578][ 65]LogContentStreaming: Texture pool size now 400 MB
+[2014.11.04-12.02.33:744][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_20) Not registered. Aborting.
+[2014.11.04-12.02.33:744][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.04-12.02.33:843][275]LogSavePackage: Save=43.878803ms
+[2014.11.04-12.02.33:843][275]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_Map_Auto812BEB69546B5D1F944B901946088B399.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Autosaves/Game/Maps/Example_Map_Auto8.umap'
+[2014.11.04-12.02.33:853][275]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.109
+[2014.11.04-12.02.33:853][275]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2014.11.04-12.11.37:248][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.04-12.11.37:250][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_21) Not registered. Aborting.
+[2014.11.04-12.11.37:250][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.04-12.11.37:330][284]LogSavePackage: Save=38.566532ms
+[2014.11.04-12.11.37:330][284]LogSavePackage: Moving '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Saved/Example_MapE15782F244B014FFBFE361A5CCC6594A.tmp' to '../../../../../../Users/Viktors/Documents/Unreal Projects/lalala/Content/Maps/Example_Map.umap'
+[2014.11.04-12.11.38:171][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_22) Not registered. Aborting.
+[2014.11.04-12.11.38:171][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.04-12.11.39:078][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_23) Not registered. Aborting.
+[2014.11.04-12.11.39:078][392]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.11.04-12.11.40:323][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_24) Not registered. Aborting.
+[2014.11.04-12.11.40:324][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.11.04-12.11.40:956][497]Cmd: QUIT_EDITOR
+[2014.11.04-12.11.41:280][497]LogExit: Preparing to exit.
+[2014.11.04-12.11.42:053][497]LogExit: Editor shut down
+[2014.11.04-12.11.42:053][497]LogExit: Transaction tracking system shut down
+[2014.11.04-12.11.42:054][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005457EC0
+[2014.11.04-12.11.42:054][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CBE2AC0
+[2014.11.04-12.11.42:055][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001793C900
+[2014.11.04-12.11.42:074][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E182E80
+[2014.11.04-12.11.42:074][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000206FC860
+[2014.11.04-12.11.42:074][497]LogExit: Object subsystem successfully closed.
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module SynthBenchmark (168)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (166)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2014.11.04-12.11.42:137][497]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2014.11.04-12.11.42:138][497]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2014.11.04-12.11.42:210][497]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.11.04-12.11.42:300][497]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.11.04-12.11.42:301][497]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.11.04-12.11.42:301][497]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.11.04-12.11.42:301][497]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.11.04-12.11.42:301][497]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.11.04-12.11.42:303][497]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.11.04-12.11.42:403][497]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.11.04-12.11.42:403][497]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.11.04-12.11.42:405][497]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.11.04-12.11.42:405][497]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.11.04-12.11.42:420][497]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.11.04-12.11.42:420][497]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.11.04-12.11.42:420][497]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.11.04-12.11.42:420][497]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.11.04-12.11.42:421][497]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.11.04-12.11.42:422][497]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.11.04-12.11.42:432][497]LogDerivedDataCache: Shutdown
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.04-12.11.42:432][497]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.04-12.11.42:434][497]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.04-12.11.42:469][497]LogExit: Exiting.
+[2014.11.04-12.11.42:496][497]Log file closed, 11/04/14 13:11:42
